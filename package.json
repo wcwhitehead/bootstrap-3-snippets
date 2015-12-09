@@ -1,0 +1,21 @@
+{
+	"name": "bootstrap-3-snippets",
+	"displayName": "Bootstrap 3 Snippets",
+	"description": "Bootstrap 3 Snippets for VS Code",
+	"version": "0.0.1",
+	"publisher": "wcwhitehead",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
