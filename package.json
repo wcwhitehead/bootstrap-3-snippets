@@ -2,11 +2,15 @@
 	"name": "bootstrap-3-snippets",
 	"displayName": "Bootstrap 3 Snippets",
 	"description": "Bootstrap 3 Snippets for VS Code",
-	"version": "0.0.2",
+	"icon": "images/icon.png",
+	"version": "0.0.3",
 	"publisher": "wcwhitehead",
 	"license":"See License section in README.md",
-	"homepage":"https://github.com/wcwhitehead/bootstrap-3-snippets",
-	"icon": "images/icon.png",
+	"homepage":"https://github.com/wcwhitehead/bootstrap-3-snippets/blob/master/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/wcwhitehead/bootstrap-3-snippets.git"
+    },
 	"engines": {
 		"vscode": "^0.10.1"
 	},

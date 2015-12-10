@@ -1312,5 +1312,11 @@
 		"body": "\n<div class=\"well\">\n\t${0}\n</div>\n",
 		"description": "Well",
 		"scope": ""
+	},
+	"bs3-progress": {
+		"prefix": "bs3-progress",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Progress Bar",
+		"scope": ""
 	}
 }
