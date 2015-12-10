@@ -380,6 +380,12 @@ bs3-panel:primary | Panel (Primary)
 bs3-panel:success | Panel (Success)
 bs3-panel:warning | Panel (Warning)
 
+### Progress Bars
+
+Trigger | Description
+--- | ---
+bs3-progress | Basic Progress Bar
+
 ### Tables
 
 Trigger | Description
