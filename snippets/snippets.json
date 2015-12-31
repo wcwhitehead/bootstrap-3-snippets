@@ -1318,5 +1318,71 @@
 		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
 		"description": "Progress Bar",
 		"scope": ""
+	},
+    "bs3-progress-striped": {
+		"prefix": "bs3-progress-striped",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:label": {
+		"prefix": "bs3-progress:label",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"min-width: ${4}; width: ${5};\">\n\t\t ${6: % Complete}\n\t</div>\n</div>\n",
+		"description": "Progress Bar with Label",
+		"scope": ""
+	},
+    "bs3-progress-striped:label": {
+		"prefix": "bs3-progress-striped:label",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"min-width: ${4}; width: ${5};\">\n\t\t ${6: % Complete}\n\t</div>\n</div>\n",
+		"description": "Striped Progress Bar with Label",
+		"scope": ""
+	},
+    "bs3-progress:success": {
+		"prefix": "bs3-progress:success",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-success\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Success Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:info": {
+		"prefix": "bs3-progress:info",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-info\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Info Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:warning": {
+		"prefix": "bs3-progress:warning",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Warning Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:danger": {
+		"prefix": "bs3-progress:danger",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Danger Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:success": {
+		"prefix": "bs3-progress-striped:success",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-success progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Success Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:info": {
+		"prefix": "bs3-progress-striped:info",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-info progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Info Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:warning": {
+		"prefix": "bs3-progress-striped:warning",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-warning progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Warning Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:danger": {
+		"prefix": "bs3-progress-striped:danger",
+		"body": "\n<div class=\"progress\">\n\t<div class=\"progress-bar progress-bar-danger progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span class=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Danger Progress Bar",
+		"scope": ""
 	}
 }

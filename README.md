@@ -384,7 +384,18 @@ bs3-panel:warning | Panel (Warning)
 
 Trigger | Description
 --- | ---
-bs3-progress | Basic Progress Bar
+bs3-progress | Progress Bar
+bs3-progress-striped | Striped Progress Bar
+bs3-progress:label | Progress Bar with Label
+bs3-progress-striped:label | Striped Progress Bar with Label
+bs3-progress:success | Progress Bar (Success)
+bs3-progress-striped:success | Striped Progress Bar (Success)
+bs3-progress:info | Progress Bar (Info)
+bs3-progress-striped:info | Striped Progress Bar (Info)
+bs3-progress:warning | Progress Bar (Warning)
+bs3-progress-striped:warning | Striped Progress Bar (Warning)
+bs3-progress:danger | Progress Bar (Danger)
+bs3-progress-striped:danger | Striped Progress Bar (Danger)
 
 ### Tables
 
