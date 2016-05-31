@@ -31,9 +31,13 @@
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
-            {
-    			"language": "php",
- 		    	"path": "./snippets/snippets.json"
+    			{
+    				"language": "php",
+ 		    		"path": "./snippets/snippets.json"
+ 			},
+ 			{
+ 				"language": "razor",
+ 				"path": "./snippets/snippets.json"
  			}
 		]
 	}
