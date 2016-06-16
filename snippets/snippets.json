@@ -133,8 +133,14 @@
 	},
 	"bs3-breadcrumbs": {
 		"prefix": "bs3-breadcrumbs",
-		"body": "\n<ol class=\"breadcrumb\">\n\t<li>\n\t\t<a href=\"${1:#}\">${2:Home}</a>\n\t</li>\n\t${3:<li>\n\t\t<a href=\"#\">Link</a>\n\t</li>}\n\t<li class=\"active\">${4:Current}</li>\n</ol>\n",
+		"body": "\n<ol class=\"breadcrumb\">\n\t<li>\n\t\t<a href=\"${1:#}\">${2:Home}</a>\n\t</li>\n\t<li class=\"active\">${3:Current}</li>\n</ol>\n",
 		"description": "Breadcrumbs",
+		"scope": ""
+	},
+	"bs3-breadcrumbs-link": {
+		"prefix": "bs3-breadcrumbs-link",
+		"body": "<li>\n\t<a href=\"${1:#}\">${2:Link}</a>\n</li>",
+		"description": "Breadcrumbs link",
 		"scope": ""
 	},
 	"bs3-button:danger": {
