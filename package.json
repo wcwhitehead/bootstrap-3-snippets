@@ -38,6 +38,10 @@
  			{
  				"language": "razor",
  				"path": "./snippets/snippets.json"
+ 			},
+ 			{
+ 				"language": "latte",
+ 				"path": "./snippets/snippets.json"
  			}
 		]
 	}
