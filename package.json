@@ -3,7 +3,7 @@
 	"displayName": "Bootstrap 3 Snippets",
 	"description": "Bootstrap 3 Snippets for VS Code",
 	"icon": "images/icon.png",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "wcwhitehead",
 	"license":"See License section in README.md",
 	"homepage":"https://github.com/wcwhitehead/bootstrap-3-snippets/blob/master/README.md",
@@ -31,7 +31,7 @@
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
-    			{
+    		{
     				"language": "php",
  		    		"path": "./snippets/snippets.json"
  			},
@@ -41,6 +41,10 @@
  			},
 			{
  				"language": "ejs",
+ 				"path": "./snippets/snippets.json"
+ 			},
+			{
+ 				"language": "latte",
  				"path": "./snippets/snippets.json"
  			}
 		]
