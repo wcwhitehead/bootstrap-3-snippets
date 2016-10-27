@@ -1075,7 +1075,7 @@
 	},
 	"bs3-panel:heading": {
 		"prefix": "bs3-panel:heading",
-		"body": "\n<div class=\"panel panel-${1:default}\">\n\t  <div class=\"panel-heading\">\n\t\t\t<h3 class=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div class=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"body": "\n<div class=\"panel panel-${1:default}\">\n\t  <div class=\"panel-heading\">\n\t\t\t<h3 class=\"panel-title\">${2:Panel title}</h3>\n\t  </div>\n\t  <div class=\"panel-body\">\n\t\t\t${3:Panel content}\n\t  </div>\n</div>\n",
 		"description": "Panel (with Heading)",
 		"scope": ""
 	},
