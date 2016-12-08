@@ -31,7 +31,7 @@
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
-    		{
+    			{
 				"language": "php",
 				"path": "./snippets/snippets.json"
  			},
@@ -45,6 +45,10 @@
  			},
 			{
  				"language": "latte",
+ 				"path": "./snippets/snippets.json"
+ 			},
+			{
+ 				"language": "tpl",
  				"path": "./snippets/snippets.json"
  			}
 		]
