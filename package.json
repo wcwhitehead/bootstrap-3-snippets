@@ -48,6 +48,10 @@
  				"path": "./snippets/snippets.json"
  			},
 			{
+ 				"language": "tpl",
+ 				"path": "./snippets/snippets.json"
+ 			},
+      {
  				"language": "ts",
  				"path": "./snippets/snippets.json"
  			}
