@@ -51,8 +51,16 @@
  				"language": "tpl",
  				"path": "./snippets/snippets.json"
  			},
-      {
+      		{
  				"language": "ts",
+ 				"path": "./snippets/snippets.json"
+ 			},
+			{
+ 				"language": "haml",
+ 				"path": "./snippets/snippets.json"
+ 			},
+			{
+ 				"language": "erb",
  				"path": "./snippets/snippets.json"
  			}
 		]
