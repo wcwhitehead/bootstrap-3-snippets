@@ -39,6 +39,10 @@
 				"language": "blade",
 				"path": "./snippets/snippets.json"
  			},
+    			{
+				"language": "vue",
+				"path": "./snippets/snippets.json"
+ 			},
  			{
  				"language": "razor",
  				"path": "./snippets/snippets.json"
