@@ -51,7 +51,7 @@
  				"language": "tpl",
  				"path": "./snippets/snippets.json"
  			},
-      		{
+      			{
  				"language": "ts",
  				"path": "./snippets/snippets.json"
  			},
@@ -62,7 +62,11 @@
 			{
  				"language": "erb",
  				"path": "./snippets/snippets.json"
- 			}
+ 			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/snippets.json"
+			}
 		]
 	}
 }
