@@ -28,11 +28,23 @@
 				"path": "./snippets/snippets.json"
 			},
 			{
+				"language": "twig",
+				"path": "./snippets/snippets.json"
+			},
+			{
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
     			{
 				"language": "php",
+				"path": "./snippets/snippets.json"
+ 			},
+    			{
+				"language": "blade",
+				"path": "./snippets/snippets.json"
+ 			},
+    			{
+				"language": "vue",
 				"path": "./snippets/snippets.json"
  			},
  			{
@@ -63,6 +75,10 @@
  				"language": "erb",
  				"path": "./snippets/snippets.json"
  			},
+			{
+				"language": "jsx",
+				"path": "./snippets/snippets.json"
+			},
 			{
 				"language": "vue-html",
 				"path": "./snippets/snippets.json"
