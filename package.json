@@ -28,10 +28,6 @@
 				"path": "./snippets/snippets.json"
 			},
 			{
-				"language": "twig",
-				"path": "./snippets/snippets.json"
-			},
-			{
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
@@ -39,62 +35,30 @@
 				"language": "php",
 				"path": "./snippets/snippets.json"
  			},
-    			{
-				"language": "blade",
-				"path": "./snippets/snippets.json"
- 			},
-			{
-				"language": "blade.php",
-				"path": "./snippets/snippets.json"
- 			},
-    			{
-				"language": "vue",
-				"path": "./snippets/snippets.json"
- 			},
  			{
  				"language": "razor",
  				"path": "./snippets/snippets.json"
  			},
-			{
- 				"language": "ejs",
+			 {
+ 				"language": "javascript",
  				"path": "./snippets/snippets.json"
  			},
 			{
- 				"language": "latte",
+ 				"language": "javascriptreact",
  				"path": "./snippets/snippets.json"
  			},
 			{
- 				"language": "tpl",
- 				"path": "./snippets/snippets.json"
- 			},
-      			{
- 				"language": "ts",
+ 				"language": "jade",
  				"path": "./snippets/snippets.json"
  			},
 			{
-				"language": "tsx",
-				"path": "./snippets/snippets.json"
- 			},
-			{
- 				"language": "haml",
+ 				"language": "typescript",
  				"path": "./snippets/snippets.json"
  			},
 			{
- 				"language": "erb",
+ 				"language": "typescriptreact",
  				"path": "./snippets/snippets.json"
- 			},
-			{
-				"language": "jsx",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "vue-html",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "js",
-				"path": "./snippets/snippets.json"
-			}
+ 			} 
 		]
 	}
 }
