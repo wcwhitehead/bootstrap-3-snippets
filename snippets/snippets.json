@@ -547,7 +547,7 @@
 	},
 	"bs3-input:submit:h": {
 		"prefix": "bs3-input:submit:h",
-		"body": "\n<div class=\"form-group\">\n\t<div class=\"col-${3:sm-10} col-offset-2\">\n\t\t<button type=\"submit\" class=\"btn btn-primary\">${5:Submit}</button>\n\t</div>\n</div>\n",
+		"body": "\n<div class=\"form-group\">\n\t<div class=\"col-${3:sm-10} col-sm-offset-2\">\n\t\t<button type=\"submit\" class=\"btn btn-primary\">${5:Submit}</button>\n\t</div>\n</div>\n",
 		"description": "Select Input (Horizontal)",
 		"scope": ""
 	},
