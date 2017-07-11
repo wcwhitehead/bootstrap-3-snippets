@@ -43,6 +43,10 @@
 				"language": "blade",
 				"path": "./snippets/snippets.json"
  			},
+			{
+				"language": "blade.php",
+				"path": "./snippets/snippets.json"
+ 			},
     			{
 				"language": "vue",
 				"path": "./snippets/snippets.json"
@@ -66,6 +70,10 @@
       			{
  				"language": "ts",
  				"path": "./snippets/snippets.json"
+ 			},
+			{
+				"language": "tsx",
+				"path": "./snippets/snippets.json"
  			},
 			{
  				"language": "haml",
