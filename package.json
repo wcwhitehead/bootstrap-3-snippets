@@ -63,7 +63,7 @@
  				"language": "tpl",
  				"path": "./snippets/snippets.json"
  			},
-      		{
+      			{
  				"language": "ts",
  				"path": "./snippets/snippets.json"
  			},
@@ -76,9 +76,9 @@
  				"path": "./snippets/snippets.json"
  			},
 			{
- 				"language": "blade",
- 				"path": "./snippets/snippets.json"
- 			}
+				"language": "jsx",
+				"path": "./snippets/snippets.json"
+			}
 		]
 	}
 }
