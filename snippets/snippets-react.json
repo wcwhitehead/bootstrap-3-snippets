@@ -1,0 +1,1394 @@
+{
+	"bs3-alert:danger": {
+		"prefix": "bs3-alert:danger",
+		"body": "\n<div className=\"alert alert-danger\">\n\t<button type=\"button\" className=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>\n\t<strong>${1:Title!}</strong> ${2:Alert body ...}\n</div>\n",
+		"description": "Danger Alert Box",
+		"scope": ""
+	},
+	"bs3-alert:info": {
+		"prefix": "bs3-alert:info",
+		"body": "\n<div className=\"alert alert-info\">\n\t<button type=\"button\" className=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>\n\t<strong>${1:Title!}</strong> ${2:Alert body ...}\n</div>\n",
+		"description": "Info Alert Box",
+		"scope": ""
+	},
+	"bs3-alert:success": {
+		"prefix": "bs3-alert:success",
+		"body": "\n<div className=\"alert alert-success\">\n\t<button type=\"button\" className=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>\n\t<strong>${1:Title!}</strong> ${2:Alert body ...}\n</div>\n",
+		"description": "Success Alert Box",
+		"scope": ""
+	},
+	"bs3-alert:warning": {
+		"prefix": "bs3-alert:warning",
+		"body": "\n<div className=\"alert alert-warning\">\n    <button type=\"button\" className=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>\n    <strong>${1:Title!}</strong> ${2:Alert body ...}\n</div>\n",
+		"description": "Warning Alert Box",
+		"scope": ""
+	},
+	"bs3-alert": {
+		"prefix": "bs3-alert",
+		"body": "\n<div className=\"alert\">\n\t<button type=\"button\" className=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>\n\t<strong>${1:Title!}</strong> ${2:Alert body ...}\n</div>\n",
+		"description": "Alert Box (Default)",
+		"scope": ""
+	},
+	"bs3-badge": {
+		"prefix": "bs3-badge",
+		"body": "\n<span className=\"badge\">${1:Badge}</span>\n",
+		"description": "Badge (Default)",
+		"scope": ""
+	},
+	"bs3-block-button:danger": {
+		"prefix": "bs3-block-button:danger",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-danger\">${4:button}</${1:button}>\n",
+		"description": "Danger Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:default": {
+		"prefix": "bs3-block-button:default",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-default\">${4:button}</${1:button}>\n",
+		"description": "Default Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:disabled": {
+		"prefix": "bs3-block-button:disabled",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-{2:default} disabled\">${4:button}</${1:button}>\n",
+		"description": "Disabled Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:info": {
+		"prefix": "bs3-block-button:info",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-info\">${4:button}</${1:button}>\n",
+		"description": "Info Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:primary": {
+		"prefix": "bs3-block-button:primary",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-primary\">${4:button}</${1:button}>\n",
+		"description": "Primary Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:success": {
+		"prefix": "bs3-block-button:success",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-success\">${4:button}</${1:button}>\n",
+		"description": "Success Block Button",
+		"scope": ""
+	},
+	"bs3-block-button:warning": {
+		"prefix": "bs3-block-button:warning",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-warning\">${4:button}</${1:button}>\n",
+		"description": "Warning Block Button",
+		"scope": ""
+	},
+	"bs3-block-button": {
+		"prefix": "bs3-block-button",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:large} btn-block btn-default\">${4:button}</${1:button}>\n",
+		"description": "Block Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:danger": {
+		"prefix": "bs3-block-link-button:danger",
+		"body": "\n<a className=\"btn btn-large btn-block btn-danger\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Danger Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:default": {
+		"prefix": "bs3-block-link-button:default",
+		"body": "\n<a className=\"btn btn-large btn-block btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Default Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:disabled": {
+		"prefix": "bs3-block-link-button:disabled",
+		"body": "\n<a className=\"btn btn-large btn-block btn-default disabled\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Disabled Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:info": {
+		"prefix": "bs3-block-link-button:info",
+		"body": "\n<a className=\"btn btn-large btn-block btn-info\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Info Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:primary": {
+		"prefix": "bs3-block-link-button:primary",
+		"body": "\n<a className=\"btn btn-large btn-block btn-primary\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Primary Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:success": {
+		"prefix": "bs3-block-link-button:success",
+		"body": "\n<a className=\"btn btn-large btn-block btn-success\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Success Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button:warning": {
+		"prefix": "bs3-block-link-button:warning",
+		"body": "\n<a className=\"btn btn-large btn-block btn-warning\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Warning Block Link Button",
+		"scope": ""
+	},
+	"bs3-block-link-button": {
+		"prefix": "bs3-block-link-button",
+		"body": "\n<a className=\"btn btn-large btn-block btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Block Link Button",
+		"scope": ""
+	},
+	"bs3-breadcrumbs": {
+		"prefix": "bs3-breadcrumbs",
+		"body": "\n<ol className=\"breadcrumb\">\n\t<li>\n\t\t<a href=\"${1:#}\">${2:Home}</a>\n\t</li>\n\t<li className=\"active\">${3:Current}</li>\n</ol>\n",
+		"description": "Breadcrumbs",
+		"scope": ""
+	},
+	"bs3-breadcrumbs-link": {
+		"prefix": "bs3-breadcrumbs-link",
+		"body": "<li>\n\t<a href=\"${1:#}\">${2:Link}</a>\n</li>",
+		"description": "Breadcrumbs link",
+		"scope": ""
+	},
+	"bs3-button:danger": {
+		"prefix": "bs3-button:danger",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-danger\">${3:button}</${1:button}>\n",
+		"description": "Danger Button",
+		"scope": ""
+	},
+	"bs3-button:default": {
+		"prefix": "bs3-button:default",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">${3:button}</${1:button}>\n",
+		"description": "Default Button",
+		"scope": ""
+	},
+	"bs3-button:disabled": {
+		"prefix": "bs3-button:disabled",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-${3:primary} disabled\">${4:button}</${1:button}>\n",
+		"description": "Disabled Button",
+		"scope": ""
+	},
+	"bs3-group:vertical": {
+		"prefix": "bs3-group:vertical",
+		"body": "\n<div className=\"btn-group-vertical\">\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Top</${1:button}>\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Middle</${1:button}>\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Bottom</${1:button}>\n</div>\n",
+		"description": "Vertical Button Group",
+		"scope": ""
+	},
+	"bs3-group": {
+		"prefix": "bs3-group",
+		"body": "\n<div className=\"btn-group\">\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Left</${1:button}>\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Middle</${1:button}>\n\t<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">Right</${1:button}>\n</div>\n",
+		"description": "Button Group",
+		"scope": ""
+	},
+	"bs3-button:info": {
+		"prefix": "bs3-button:info",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-info\">${3:button}</${1:button}>\n",
+		"description": "Info Button",
+		"scope": ""
+	},
+	"bs3-button:primary": {
+		"prefix": "bs3-button:primary",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-primary\">${3:button}</${1:button}>\n",
+		"description": "Primary Button",
+		"scope": ""
+	},
+	"bs3-button:success": {
+		"prefix": "bs3-button:success",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-success\">${3:button}</${1:button}>\n",
+		"description": "Success Button",
+		"scope": ""
+	},
+	"bs3-toolbar": {
+		"prefix": "bs3-toolbar",
+		"body": "\n<div className=\"btn-toolbar\">\n\t<div className=\"btn-group\"></div>\n\t<div className=\"btn-group\"></div>\n\t<div className=\"btn-group\"></div>\n</div>\n",
+		"description": "Toolbar for Button Groups",
+		"scope": ""
+	},
+	"bs3-button:warning": {
+		"prefix": "bs3-button:warning",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-warning\">${3:button}</${1:button}>\n",
+		"description": "Warning Button",
+		"scope": ""
+	},
+	"bs3-button": {
+		"prefix": "bs3-button",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-default\">${3:button}</${1:button}>\n",
+		"description": "Button",
+		"scope": ""
+	},
+	"bs3-carousel": {
+		"prefix": "bs3-carousel",
+		"body": "\n<div id=\"${1:carousel-id}\" className=\"carousel slide\" data-ride=\"carousel\">\n    <ol className=\"carousel-indicators\">\n        <li data-target=\"#${1:carousel-id}\" data-slide-to=\"0\" className=\"\"></li>\n        <li data-target=\"#${1:carousel-id}\" data-slide-to=\"1\" className=\"\"></li>\n        <li data-target=\"#${1:carousel-id}\" data-slide-to=\"2\" className=\"active\"></li>\n    </ol>\n    <div className=\"carousel-inner\">\n        <div className=\"item\">\n            <img data-src=\"holder.js/900x500/auto/#777:#7a7a7a/text:First slide\" alt=\"First slide\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+\">\n            <div className=\"container\">\n                <div className=\"carousel-caption\">\n                    <h1>Example headline.</h1>\n                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the \"next\" and \"previous\" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>\n                    <p><a className=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">Sign up today</a></p>\n                </div>\n            </div>\n        </div>\n        <div className=\"item\">\n            <img data-src=\"holder.js/900x500/auto/#666:#6a6a6a/text:Second slide\" alt=\"Second slide\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==\">\n            <div className=\"container\">\n                <div className=\"carousel-caption\">\n                    <h1>Another example headline.</h1>\n                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n                    <p><a className=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">Learn more</a></p>\n                </div>\n            </div>\n        </div>\n        <div className=\"item active\">\n            <img data-src=\"holder.js/900x500/auto/#555:#5a5a5a/text:Third slide\" alt=\"Third slide\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+\">\n            <div className=\"container\">\n                <div className=\"carousel-caption\">\n                    <h1>One more for good measure.</h1>\n                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n                    <p><a className=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">Browse gallery</a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <a className=\"left carousel-control\" href=\"#${1:carousel-id}\" data-slide=\"prev\"><span className=\"glyphicon glyphicon-chevron-left\"></span></a>\n    <a className=\"right carousel-control\" href=\"#${1:carousel-id}\" data-slide=\"next\"><span className=\"glyphicon glyphicon-chevron-right\"></span></a>\n</div>\n",
+		"description": "Carousel",
+		"scope": ""
+	},
+	"bs3-cdn:css": {
+		"prefix": "bs3-cdn:css",
+		"body": "\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n",
+		"description": "CDN Hosted Bootstrap Link: CSS Only",
+		"scope": ""
+	},
+	"bs3-cdn:js": {
+		"prefix": "bs3-cdn:js",
+		"body": "\n<!-- Latest compiled and minified JS -->\n${1:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
+		"description": "CDN Hosted Bootstrap Link: JS Only",
+		"scope": ""
+	},
+	"bs3-cdn": {
+		"prefix": "bs3-cdn",
+		"body": "\n<!-- Latest compiled and minified CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n${2:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
+		"description": "CDN Hosted Bootstrap Links: CSS & JS",
+		"scope": ""
+	},
+	"bs3-clearfix": {
+		"prefix": "bs3-clearfix",
+		"body": "\n<div className=\"clearfix\">\n\n</div>\n",
+		"description": "Clearfix",
+		"scope": ""
+	},
+	"bs3-col:1": {
+		"prefix": "bs3-col:1",
+		"body": "\n<div className=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\">\n\t${0}\n</div>\n",
+		"description": "1 Column",
+		"scope": ""
+	},
+	"bs3-col:10": {
+		"prefix": "bs3-col:10",
+		"body": "\n<div className=\"col-xs-10 col-sm-10 col-md-10 col-lg-10\">\n\t${0}\n</div>\n",
+		"description": "10 Columns",
+		"scope": ""
+	},
+	"bs3-col:11": {
+		"prefix": "bs3-col:11",
+		"body": "\n<div className=\"col-xs-11 col-sm-11 col-md-11 col-lg-11\">\n\t${0}\n</div>\n",
+		"description": "11 Columns",
+		"scope": ""
+	},
+	"bs3-col:12": {
+		"prefix": "bs3-col:12",
+		"body": "\n<div className=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n\t${0}\n</div>\n",
+		"description": "12 Columns",
+		"scope": ""
+	},
+	"bs3-col:2": {
+		"prefix": "bs3-col:2",
+		"body": "\n<div className=\"col-xs-2 col-sm-2 col-md-2 col-lg-2\">\n\t${0}\n</div>\n",
+		"description": "2 Columns",
+		"scope": ""
+	},
+	"bs3-col:3": {
+		"prefix": "bs3-col:3",
+		"body": "\n<div className=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\">\n\t${0}\n</div>\n",
+		"description": "3 Columns",
+		"scope": ""
+	},
+	"bs3-col:4": {
+		"prefix": "bs3-col:4",
+		"body": "\n<div className=\"col-xs-4 col-sm-4 col-md-4 col-lg-4\">\n\t${0}\n</div>\n",
+		"description": "4 Columns",
+		"scope": ""
+	},
+	"bs3-col:5": {
+		"prefix": "bs3-col:5",
+		"body": "\n<div className=\"col-xs-5 col-sm-5 col-md-5 col-lg-5\">\n\t${0}\n</div>\n",
+		"description": "5 Columns",
+		"scope": ""
+	},
+	"bs3-col:6": {
+		"prefix": "bs3-col:6",
+		"body": "\n<div className=\"col-xs-6 col-sm-6 col-md-6 col-lg-6\">\n\t${0}\n</div>\n",
+		"description": "6 Columns",
+		"scope": ""
+	},
+	"bs3-col:7": {
+		"prefix": "bs3-col:7",
+		"body": "\n<div className=\"col-xs-7 col-sm-7 col-md-7 col-lg-7\">\n\t${0}\n</div>\n",
+		"description": "7 Columns",
+		"scope": ""
+	},
+	"bs3-col:8": {
+		"prefix": "bs3-col:8",
+		"body": "\n<div className=\"col-xs-8 col-sm-8 col-md-8 col-lg-8\">\n\t${0}\n</div>\n",
+		"description": "8 Columns",
+		"scope": ""
+	},
+	"bs3-col:9": {
+		"prefix": "bs3-col:9",
+		"body": "\n<div className=\"col-xs-9 col-sm-9 col-md-9 col-lg-9\">\n\t${0}\n</div>\n",
+		"description": "9 Columns",
+		"scope": ""
+	},
+	"bs3-col": {
+		"prefix": "bs3-col",
+		"body": "\n<div className=\"${2:col-xs-${1}} ${3:col-sm-${1}} ${4:col-md-${1}} ${5:col-lg-${1}}\">\n\t${0}\n</div>\n",
+		"description": "Column (no number specified)",
+		"scope": ""
+	},
+	"bs3-container": {
+		"prefix": "bs3-container",
+		"body": "\n<div className=\"container\">\n\t${0}\n</div>\n",
+		"description": "Container",
+		"scope": ""
+	},
+	"bs3-form:horizontal": {
+		"prefix": "bs3-form:horizontal",
+		"body": "\n<form action=\"${1}\" method=\"${2:POST}\" className=\"form-horizontal\" role=\"form\">\n\t\t<div className=\"form-group\">\n\t\t\t<legend>${3:Form title}</legend>\n\t\t</div>\n\n\t\t${0}\n\n\t\t<div className=\"form-group\">\n\t\t\t<div className=\"col-sm-10 col-sm-offset-2\">\n\t\t\t\t<button type=\"submit\" className=\"btn btn-primary\">${4:Submit}</button>\n\t\t\t</div>\n\t\t</div>\n</form>\n",
+		"description": "Horizontal Form",
+		"scope": ""
+	},
+	"bs3-form:inline": {
+		"prefix": "bs3-form:inline",
+		"body": "\n<form action=\"${1}\" method=\"${2:POST}\" className=\"form-inline\" role=\"form\">\n\n\t${3:<div className=\"form-group\">\n\t\t<label className=\"sr-only\" for=\"\">label</label>\n\t\t<input type=\"email\" className=\"form-control\" id=\"\" placeholder=\"Input field\">\n\t</div>}\n\n\t${0}\n\n\t<button type=\"submit\" className=\"btn btn-primary\">${4:Submit}</button>\n</form>\n",
+		"description": "Inline Form",
+		"scope": ""
+	},
+	"bs3-form:label": {
+		"prefix": "bs3-form:label",
+		"body": "\n<label for=\"${1:input-id}\" ${2:className=\"col-sm-2\"}>${3}</label>\n",
+		"description": "Label",
+		"scope": ""
+	},
+	"bs3-form": {
+		"prefix": "bs3-form",
+		"body": "\n<form action=\"${1}\" method=\"${2:POST}\" role=\"form\">\n\t<legend>${3:Form title}</legend>\n\n\t<div className=\"form-group\">\n\t\t<label for=\"\">${4:label}</label>\n\t\t<input type=\"text\" className=\"form-control\" id=\"\" placeholder=\"Input field\">\n\t</div>\n\n\t${0}\n\n\t<button type=\"submit\" className=\"btn btn-primary\">${5:Submit}</button>\n</form>\n",
+		"description": "Form",
+		"scope": ""
+	},
+	"bs3-template:html5": {
+		"prefix": "bs3-template:html5",
+		"body": "\n<!DOCTYPE html>\n<html lang=\"${1}\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t<title>${2:Title Page}</title>\n\n\t\t<!-- Bootstrap CSS -->\n\t\t<link href=\"${3:https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css}\" rel=\"stylesheet\">\n\n\t\t<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n\t\t<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n\t\t<!--[if lt IE 9]>\n\t\t\t<script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js\"></script>\n\t\t\t<script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n\t\t<![endif]-->\n\t</head>\n\t<body>\n\t\t<h1 className=\"text-center\">${6:Hello World}</h1>\n\n\t\t<!-- jQuery -->\n\t\t<script src=\"${4:https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js}\"></script>\n\t\t<!-- Bootstrap JavaScript -->\n\t\t<script src=\"${5:https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js}\"></script>\n\t</body>\n</html>\n",
+		"description": "HTML5 Template Layout",
+		"scope": ""
+	},
+	"bs3-icon:glyphicon": {
+		"prefix": "bs3-icon:glyphicon",
+		"body": "\n<span className=\"glyphicon glyphicon-${1:icon}\" aria-hidden=\"true\"></span>\n",
+		"description": "Glyphicon",
+		"scope": ""
+	},
+	"bs3-icon": {
+		"prefix": "bs3-icon",
+		"body": "\n<i className=\"fa fa-${1:name}${2:-${3:shape}${4:-${5:o}${6:-${7:direction}}}}\"></i>\n",
+		"description": "Icon",
+		"scope": ""
+	},
+	"bs3-image": {
+		"prefix": "bs3-image",
+		"body": "\n<img src=\"${1:#}\" ${2:className=\"img-responsive\"} alt=\"${3:Image}\">\n",
+		"description": "Responsive Image",
+		"scope": ""
+	},
+	"bs3-input:checkbox": {
+		"prefix": "bs3-input:checkbox",
+		"body": "\n<div className=\"checkbox\">\n\t<label>\n\t\t<input type=\"checkbox\" value=\"${1}\">\n\t\t${2:Checkbox}\n\t</label>\n</div>\n",
+		"description": "Checkbox",
+		"scope": ""
+	},
+	"bs3-input:color:h": {
+		"prefix": "bs3-input:color:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"color\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Color Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:color": {
+		"prefix": "bs3-input:color",
+		"body": "\n<input type=\"color\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Color Input",
+		"scope": ""
+	},
+	"bs3-input:date:h": {
+		"prefix": "bs3-input:date:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"date\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Date Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:date": {
+		"prefix": "bs3-input:date",
+		"body": "\n<input type=\"date\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Date Input",
+		"scope": ""
+	},
+	"bs3-input:email:h": {
+		"prefix": "bs3-input:email:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"email\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Email Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:email": {
+		"prefix": "bs3-input:email",
+		"body": "\n<input type=\"email\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Email Input",
+		"scope": ""
+	},
+	"bs3-input-group:addon:text": {
+		"prefix": "bs3-input-group:addon:text",
+		"body": "\n<div className=\"input-group\">\n\t<div className=\"input-group-addon\">${1:\\$}</div>\n\t<input type=\"text\" className=\"form-control\" id=\"exampleInputAmount\" placeholder=\"Amount\">\n</div>\n",
+		"description": "Input group (addon & text-field)",
+		"scope": ""
+	},
+	"bs3-input-group-addon": {
+		"prefix": "bs3-input-group-addon",
+		"body": "\n<div className=\"input-group-addon\">${1:\\$}</div>\n",
+		"description": "Input group (addon)",
+		"scope": ""
+	},
+	"bs3-input-group-btn": {
+		"prefix": "bs3-input-group-btn",
+		"body": "\n<span className=\"input-group-btn\">\n\t<button type=\"button\" className=\"btn btn-default\">Go!</button>\n</span>\n",
+		"description": "Input group (button)",
+		"scope": ""
+	},
+	"bs3-input-group:text:btn": {
+		"prefix": "bs3-input-group:text:btn",
+		"body": "\n<div className=\"input-group\">\n\t<input type=\"text\" className=\"form-control\" id=\"exampleInputAmount\" placeholder=\"Search\">\n\t<span className=\"input-group-btn\">\n\t\t<button type=\"button\" className=\"btn btn-default\">Go!</button>\n\t</span>\n</div>\n",
+		"description": "Input group (text-field & btn)",
+		"scope": ""
+	},
+	"bs3-input-group": {
+		"prefix": "bs3-input-group",
+		"body": "\n<div className=\"input-group\">\n\t${0}\n</div>\n",
+		"description": "Input Group",
+		"scope": ""
+	},
+	"bs3-input:hidden": {
+		"prefix": "bs3-input:hidden",
+		"body": "\n<input type=\"hidden\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"}>\n",
+		"description": "Hidden Input",
+		"scope": ""
+	},
+	"bs3-input:label": {
+		"prefix": "bs3-input:label",
+		"body": "\n<label for=\"${1:input-id}\" ${2:className=\"col-sm-2\"}>${3}</label>\n",
+		"description": "Input Label",
+		"scope": ""
+	},
+	"bs3-input:month:h": {
+		"prefix": "bs3-input:month:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"month\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Month Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:month": {
+		"prefix": "bs3-input:month",
+		"body": "\n<input type=\"month\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Month Input",
+		"scope": ""
+	},
+	"bs3-input:number:h": {
+		"prefix": "bs3-input:number:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"number\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${5:min=\"{6}\"} ${7:max=\"${8}\"} ${9:step=\"${10}\"} ${11:required=\"required\"} ${12:title=\"${13}\"}>\n\t</div>\n</div>\n",
+		"description": "Number Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:number": {
+		"prefix": "bs3-input:number",
+		"body": "\n<input type=\"number\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:min=\"{5}\"} ${6:max=\"${7}\"} ${8:step=\"${9}\"} ${10:required=\"required\"} ${11:title=\"${12}\"}>\n",
+		"description": "Number Input",
+		"scope": ""
+	},
+	"bs3-input:password:h": {
+		"prefix": "bs3-input:password:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"password\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:required=\"required\"} ${5:title=\"${6}\"}>\n\t</div>\n</div>\n",
+		"description": "Password Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:password": {
+		"prefix": "bs3-input:password",
+		"body": "\n<input type=\"password\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:required=\"required\"} ${3:title=\"${4}\"}>\n",
+		"description": "Password Input",
+		"scope": ""
+	},
+	"bs3-input:radio": {
+		"prefix": "bs3-input:radio",
+		"body": "\n<div className=\"radio\">\n\t<label>\n\t\t<input type=\"radio\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" value=\"${2}\" ${3:checked=\"checked\"}>\n\t\t${4:Radio Box}\n\t</label>\n</div>\n",
+		"description": "Radio Input",
+		"scope": ""
+	},
+	"bs3-input:range:h": {
+		"prefix": "bs3-input:range:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"range\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${5:min=\"{6}\"} ${7:max=\"${8}\"} ${9:step=\"${10}\"} ${11:required=\"required\"} ${12:title=\"${13}\"}>\n\t</div>\n</div>\n",
+		"description": "Range Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:range": {
+		"prefix": "bs3-input:range",
+		"body": "\n<input type=\"range\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:min=\"{5}\"} ${6:max=\"${7}\"} ${8:step=\"${9}\"} ${10:required=\"required\"} ${11:title=\"${12}\"}>\n",
+		"description": "Range Input",
+		"scope": ""
+	},
+	"bs3-input:reset:h": {
+		"prefix": "bs3-input:reset:h",
+		"body": "\n<div className=\"form-group\">\n\t<div className=\"col-sm-${1:10} col-offset-${2:2}\">\n\t\t<input type=\"reset\" value=\"${3:Reset}\" className=\"btn btn-default\">\n\t</div>\n</div>\n",
+		"description": "Reset Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:reset": {
+		"prefix": "bs3-input:reset",
+		"body": "\n<input type=\"reset\" value=\"${1:Reset}\" className=\"btn btn-default\">\n",
+		"description": "Reset Input",
+		"scope": ""
+	},
+	"bs3-input:search:h": {
+		"prefix": "bs3-input:search:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"search\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Search Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:search": {
+		"prefix": "bs3-input:search",
+		"body": "\n<input type=\"search\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Search Input",
+		"scope": ""
+	},
+	"bs3-input:select:h": {
+		"prefix": "bs3-input:select:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<select name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\">\n\t\t\t<option value=\"\">${4:-- Select One --}</option>\n\t\t</select>\n\t</div>\n</div>\n",
+		"description": "",
+		"scope": ""
+	},
+	"bs3-input:select": {
+		"prefix": "bs3-input:select",
+		"body": "\n<select name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\">\n\t<option value=\"\">${2:-- Select One --}</option>\n</select>\n",
+		"description": "Select Input",
+		"scope": ""
+	},
+	"bs3-input:submit:h": {
+		"prefix": "bs3-input:submit:h",
+		"body": "\n<div className=\"form-group\">\n\t<div className=\"col-${3:sm-10} col-sm-offset-2\">\n\t\t<button type=\"submit\" className=\"btn btn-primary\">${5:Submit}</button>\n\t</div>\n</div>\n",
+		"description": "Select Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:submit": {
+		"prefix": "bs3-input:submit",
+		"body": "\n<button type=\"submit\" className=\"btn btn-primary\">${5:Submit}</button>\n",
+		"description": "Submit Button",
+		"scope": ""
+	},
+	"bs3-input:tel:h": {
+		"prefix": "bs3-input:tel:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"tel\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Telephone Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:tel": {
+		"prefix": "bs3-input:tel",
+		"body": "\n<input type=\"tel\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Telephone Input",
+		"scope": ""
+	},
+	"bs3-input:text:h": {
+		"prefix": "bs3-input:text:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"text\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:pattern=\"${8}\"} ${9:title=\"${10}\"}>\n\t</div>\n</div>\n",
+		"description": "Text Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:text": {
+		"prefix": "bs3-input:text",
+		"body": "\n<input type=\"text\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:pattern=\"${6}\"} ${7:title=\"${8}\"}>\n",
+		"description": "Text Input",
+		"scope": ""
+	},
+	"bs3-input:time:h": {
+		"prefix": "bs3-input:time:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"time\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Time Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:time": {
+		"prefix": "bs3-input:time",
+		"body": "\n<input type=\"time\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Time Input",
+		"scope": ""
+	},
+	"bs3-input:url:h": {
+		"prefix": "bs3-input:url:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"url\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "URL Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:url": {
+		"prefix": "bs3-input:url",
+		"body": "\n<input type=\"url\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "URL Input",
+		"scope": ""
+	},
+	"bs3-input:week:h": {
+		"prefix": "bs3-input:week:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<input type=\"week\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${4:value=\"${5}\"} ${6:required=\"required\"} ${7:title=\"${8}\"}>\n\t</div>\n</div>\n",
+		"description": "Week Input (Horizontal)",
+		"scope": ""
+	},
+	"bs3-input:week": {
+		"prefix": "bs3-input:week",
+		"body": "\n<input type=\"week\" name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:value=\"${3}\"} ${4:required=\"required\"} ${5:title=\"${6}\"}>\n",
+		"description": "Week Input",
+		"scope": ""
+	},
+	"bs3-jumbotron": {
+		"prefix": "bs3-jumbotron",
+		"body": "\n<div className=\"jumbotron\">\n\t<div className=\"container\">\n\t\t<h1>${1:Hello, world!}</h1>\n\t\t<p>${2:Contents ...}</p>\n\t\t<p>\n\t\t\t<a className=\"btn btn-primary btn-lg\">${3:Learn more}</a>\n\t\t</p>\n\t</div>\n</div>\n",
+		"description": "Jumbotron",
+		"scope": ""
+	},
+	"bs3-label:danger": {
+		"prefix": "bs3-label:danger",
+		"body": "\n<span className=\"label label-danger\">${1:Label}</span>\n",
+		"description": "Danger Label",
+		"scope": ""
+	},
+	"bs3-label:default": {
+		"prefix": "bs3-label:default",
+		"body": "\n<span className=\"label label-default\">${1:Label}</span>\n",
+		"description": "Default Label",
+		"scope": ""
+	},
+	"bs3-label:info": {
+		"prefix": "bs3-label:info",
+		"body": "\n<span className=\"label label-info\">${1:Label}</span>\n",
+		"description": "Info Label",
+		"scope": ""
+	},
+	"bs3-label:success": {
+		"prefix": "bs3-label:success",
+		"body": "\n<span className=\"label label-success\">${1:Label}</span>\n",
+		"description": "Success Label",
+		"scope": ""
+	},
+	"bs3-label:warning": {
+		"prefix": "bs3-label:warning",
+		"body": "\n<span className=\"label label-warning\">${1:Label}</span>\n",
+		"description": "Warning Label",
+		"scope": ""
+	},
+	"bs3-label": {
+		"prefix": "bs3-label",
+		"body": "\n<span className=\"label\">${1:Label}</span>\n",
+		"description": "Label",
+		"scope": ""
+	},
+	"bs3-lg-button:danger": {
+		"prefix": "bs3-lg-button:danger",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-danger\">${3:button}</${1:button}>\n",
+		"description": "Large Danger Button",
+		"scope": ""
+	},
+	"bs3-lg-button:default": {
+		"prefix": "bs3-lg-button:default",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-default\">${3:button}</${1:button}>\n",
+		"description": "Large Default Button",
+		"scope": ""
+	},
+	"bs3-lg-button:disabled": {
+		"prefix": "bs3-lg-button:disabled",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-${3:default} disabled\">${4:button}</${1:button}>\n",
+		"description": "Large Disabled Button",
+		"scope": ""
+	},
+	"bs3-lg-button:info": {
+		"prefix": "bs3-lg-button:info",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-info\">${3:button}</${1:button}>\n",
+		"description": "Large Info Button",
+		"scope": ""
+	},
+	"bs3-lg-button:primary": {
+		"prefix": "bs3-lg-button:primary",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-primary\">${3:button}</${1:button}>\n",
+		"description": "Large Primary Button",
+		"scope": ""
+	},
+	"bs3-lg-button:success": {
+		"prefix": "bs3-lg-button:success",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-success\">${3:button}</${1:button}>\n",
+		"description": "Large Success Button",
+		"scope": ""
+	},
+	"bs3-lg-button:warning": {
+		"prefix": "bs3-lg-button:warning",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-warning\">${3:button}</${1:button}>\n",
+		"description": "Large Warning Button",
+		"scope": ""
+	},
+	"bs3-lg-button": {
+		"prefix": "bs3-lg-button",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-lg btn-default\">${3:button}</${1:button}>\n",
+		"description": "Large Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:danger": {
+		"prefix": "bs3-lg-link-button:danger",
+		"body": "\n<a className=\"btn btn-lg btn-danger\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Danger Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:default": {
+		"prefix": "bs3-lg-link-button:default",
+		"body": "\n<a className=\"btn btn-lg btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Default Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:disabled": {
+		"prefix": "bs3-lg-link-button:disabled",
+		"body": "\n<a className=\"btn btn-lg btn-default disabled\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Disabled Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:info": {
+		"prefix": "bs3-lg-link-button:info",
+		"body": "\n<a className=\"btn btn-lg btn-info\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Info Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:primary": {
+		"prefix": "bs3-lg-link-button:primary",
+		"body": "\n<a className=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Primary Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:success": {
+		"prefix": "bs3-lg-link-button:success",
+		"body": "\n<a className=\"btn btn-lg btn-success\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Success Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button:warning": {
+		"prefix": "bs3-lg-link-button:warning",
+		"body": "\n<a className=\"btn btn-lg btn-warning\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Warning Large Link Button",
+		"scope": ""
+	},
+	"bs3-lg-link-button": {
+		"prefix": "bs3-lg-link-button",
+		"body": "\n<a className=\"btn btn-lg btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Large Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:danger": {
+		"prefix": "bs3-link-button:danger",
+		"body": "\n<a className=\"btn btn-danger\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Danger Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:default": {
+		"prefix": "bs3-link-button:default",
+		"body": "\n<a className=\"btn btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Default Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:disabled": {
+		"prefix": "bs3-link-button:disabled",
+		"body": "\n<a className=\"btn btn-primary disabled\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Disabled Link Button",
+		"scope": ""
+	},
+	"bs3-link-group:vertical": {
+		"prefix": "bs3-link-group:vertical",
+		"body": "\n<div className=\"btn-group-vertical\">\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Top</a>\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Middle</a>\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Bottom</a>\n</div>\n",
+		"description": "Vertical Link Button Group",
+		"scope": ""
+	},
+	"bs3-link-group": {
+		"prefix": "bs3-link-group",
+		"body": "\n<div className=\"btn-group\">\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Left</a>\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Middle</a>\n\t<a className=\"btn btn-default\" href=\"#\" role=\"button\">Right</a>\n</div>\n",
+		"description": "Link Button Group",
+		"scope": ""
+	},
+	"bs3-link-button:info": {
+		"prefix": "bs3-link-button:info",
+		"body": "\n<a className=\"btn btn-info\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Info Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:primary": {
+		"prefix": "bs3-link-button:primary",
+		"body": "\n<a className=\"btn btn-primary\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Primary Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:success": {
+		"prefix": "bs3-link-button:success",
+		"body": "\n<a className=\"btn btn-success\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Success Link Button",
+		"scope": ""
+	},
+	"bs3-link-button:warning": {
+		"prefix": "bs3-link-button:warning",
+		"body": "\n<a className=\"btn btn-warning\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Warning Link Button",
+		"scope": ""
+	},
+	"bs3-link-button": {
+		"prefix": "bs3-link-button",
+		"body": "\n<a className=\"btn btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Link Button",
+		"scope": ""
+	},
+	"bs3-list-group:badges": {
+		"prefix": "bs3-list-group:badges",
+		"body": "\n<ul className=\"list-group\">\n\t<li className=\"list-group-item\">\n\t\t<span className=\"badge\">5</span>\n\t\tItem 1\n\t</li>\n\t<li className=\"list-group-item\">\n\t\t<span className=\"badge\">10</span>\n\t\tItem 2\n\t</li>\n\t<li className=\"list-group-item\">\n\t\t<span className=\"badge\">15</span>\n\t\tItem 3\n\t</li>\n</ul>\n",
+		"description": "List Group (with Badges)",
+		"scope": ""
+	},
+	"bs3-list-group:content": {
+		"prefix": "bs3-list-group:content",
+		"body": "\n<div className=\"list-group\">\n\t<a href=\"#\" className=\"list-group-item active\">\n\t\t<h4 className=\"list-group-item-heading\">${1:List group item heading}</h4>\n\t\t<p className=\"list-group-item-text\">${2:Content goes here}</p>\n\t</a>\n</div>\n",
+		"description": "List Group (with Content)",
+		"scope": ""
+	},
+	"bs3-list-group:linked": {
+		"prefix": "bs3-list-group:linked",
+		"body": "\n<div className=\"list-group\">\n\t<a href=\"#\" className=\"list-group-item active\">Item 1</a>\n\t<a href=\"#\" className=\"list-group-item\">Item 2</a>\n\t<a href=\"#\" className=\"list-group-item\">Item 3</a>\n</div>\n",
+		"description": "List Group (with Linked List)",
+		"scope": ""
+	},
+	"bs3-list-group": {
+		"prefix": "bs3-list-group",
+		"body": "\n<ul className=\"list-group\">\n\t<li className=\"list-group-item\">Item 1</li>\n\t<li className=\"list-group-item\">Item 2</li>\n\t<li className=\"list-group-item\">Item 3</li>\n</ul>\n",
+		"description": "List Group",
+		"scope": ""
+	},
+	"bs3-local": {
+		"prefix": "bs3-local",
+		"body": "\n<!-- Local bootstrap CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"${1:bootstrap.min.css}\">\n${2:<script src=\"jquery.js\"></script>}\n<script src=\"${3:bootstrap.min.js}\"></script>\n",
+		"description": "Local Bootstrap Link",
+		"scope": ""
+	},
+	"bs3-media-object": {
+		"prefix": "bs3-media-object",
+		"body": "\n<div className=\"media\">\n\t<a className=\"pull-left\" href=\"${1:#}\">\n\t\t<img className=\"media-object\" src=\"${2:#}\" alt=\"${3:Image}\">\n\t</a>\n\t<div className=\"media-body\">\n\t\t<h4 className=\"media-heading\">${4:Media heading}</h4>\n\t\t<p>${5:Text goes here...}</p>\n\t</div>\n</div>\n",
+		"description": "Media Object",
+		"scope": ""
+	},
+	"bs3-xs-button:danger": {
+		"prefix": "bs3-xs-button:danger",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-danger\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Danger Button",
+		"scope": ""
+	},
+	"bs3-xs-button:default": {
+		"prefix": "bs3-xs-button:default",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-default\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Default Button",
+		"scope": ""
+	},
+	"bs3-xs-button:disabled": {
+		"prefix": "bs3-xs-button:disabled",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-${3:default} disabled\">${4:button}</${1:button}>\n",
+		"description": "Extra Small Disabled Button",
+		"scope": ""
+	},
+	"bs3-xs-button:info": {
+		"prefix": "bs3-xs-button:info",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-info\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Info Button",
+		"scope": ""
+	},
+	"bs3-xs-button:primary": {
+		"prefix": "bs3-xs-button:primary",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-primary\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Primary Button",
+		"scope": ""
+	},
+	"bs3-xs-button:success": {
+		"prefix": "bs3-xs-button:success",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-success\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Success Button",
+		"scope": ""
+	},
+	"bs3-xs-button:warning": {
+		"prefix": "bs3-xs-button:warning",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-warning\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Warning Button",
+		"scope": ""
+	},
+	"bs3-xs-button": {
+		"prefix": "bs3-xs-button",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-xs btn-default\">${3:button}</${1:button}>\n",
+		"description": "Extra Small Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:danger": {
+		"prefix": "bs3-xs-link-button:danger",
+		"body": "\n<a className=\"btn btn-xs btn-danger\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Danger Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:default": {
+		"prefix": "bs3-xs-link-button:default",
+		"body": "\n<a className=\"btn btn-xs btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Default Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:disabled": {
+		"prefix": "bs3-xs-link-button:disabled",
+		"body": "\n<a className=\"btn btn-xs btn-default disabled\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Disabled Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:info": {
+		"prefix": "bs3-xs-link-button:info",
+		"body": "\n<a className=\"btn btn-xs btn-info\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Info Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:primary": {
+		"prefix": "bs3-xs-link-button:primary",
+		"body": "\n<a className=\"btn btn-xs btn-primary\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Primary Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:success": {
+		"prefix": "bs3-xs-link-button:success",
+		"body": "\n<a className=\"btn btn-xs btn-success\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Success Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button:warning": {
+		"prefix": "bs3-xs-link-button:warning",
+		"body": "\n<a className=\"btn btn-xs btn-warning\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Warning Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-xs-link-button": {
+		"prefix": "bs3-xs-link-button",
+		"body": "\n<a className=\"btn btn-xs btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Extra Small Link Button",
+		"scope": ""
+	},
+	"bs3-modal": {
+		"prefix": "bs3-modal",
+		"body": "\n${1:<a className=\"btn btn-primary\" data-toggle=\"modal\" href='#${2:modal-id}'>Trigger modal</a>}\n<div className=\"modal fade\" id=\"${2:modal-id}\">\n\t<div className=\"modal-dialog\">\n\t\t<div className=\"modal-content\">\n\t\t\t<div className=\"modal-header\">\n\t\t\t\t<button type=\"button\" className=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n\t\t\t\t<h4 className=\"modal-title\">${3:Modal title}</h4>\n\t\t\t</div>\n\t\t\t<div className=\"modal-body\">\n\t\t\t\t${0}\n\t\t\t</div>\n\t\t\t<div className=\"modal-footer\">\n\t\t\t\t<button type=\"button\" className=\"btn btn-default\" data-dismiss=\"modal\">${4:Close}</button>\n\t\t\t\t<button type=\"button\" className=\"btn btn-primary\">${5:Save changes}</button>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n",
+		"description": "Modal",
+		"scope": ""
+	},
+	"bs3-navbar:basic": {
+		"prefix": "bs3-navbar:basic",
+		"body": "\n<div className=\"navbar\">\n\t<a className=\"navbar-brand\" href=\"#\">${1:Title}</a>\n\t<ul className=\"nav navbar-nav\">\n\t\t<li className=\"active\">\n\t\t\t<a href=\"#\">${2:Home}</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a href=\"#\">${3:Link}</a>\n\t\t</li>\n\t</ul>\n</div>\n",
+		"description": "Navbar (Basic)",
+		"scope": ""
+	},
+	"bs3-navbar:brand": {
+		"prefix": "bs3-navbar:brand",
+		"body": "\n<a className=\"navbar-brand\" href=\"${1:/}\">${2:Title}</a>\n",
+		"description": "Navbar Brand Element",
+		"scope": ""
+	},
+	"bs3-navbar:fixed-bottom": {
+		"prefix": "bs3-navbar:fixed-bottom",
+		"body": "\n<nav className=\"navbar navbar-default navbar-fixed-bottom\" role=\"navigation\">\n\t<a className=\"navbar-brand\" href=\"${1:#}\">${2:Title}</a>\n\t<ul className=\"nav navbar-nav\">\n\t\t<li className=\"active\">\n\t\t\t<a href=\"#\">${3:Home}</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a href=\"#\">${4:Link}</a>\n\t\t</li>\n\t</ul>\n</nav>\n",
+		"description": "Navbar Fixed-Bottom",
+		"scope": ""
+	},
+	"bs3-navbar:fixed-top": {
+		"prefix": "bs3-navbar:fixed-top",
+		"body": "\n<nav className=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n\t<a className=\"navbar-brand\" href=\"${1:#}\">${2:Title}</a>\n\t<ul className=\"nav navbar-nav\">\n\t\t<li className=\"active\">\n\t\t\t<a href=\"#\">${3:Home}</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a href=\"#\">${4:Link}</a>\n\t\t</li>\n\t</ul>\n</nav>\n",
+		"description": "Navbar Fixed-Top",
+		"scope": ""
+	},
+	"bs3-navbar:form": {
+		"prefix": "bs3-navbar:form",
+		"body": "\n<form className=\"navbar-form pull-${1:right}\">\n\t<input type=\"text\" style=\"width: 200px;\">\n\t<button type=\"submit\" className=\"btn btn-${2:default}\">${3:Submit}</button>\n</form>\n",
+		"description": "Navbar Form",
+		"scope": ""
+	},
+	"bs3-navbar:inverse": {
+		"prefix": "bs3-navbar:inverse",
+		"body": "\n<nav className=\"navbar navbar-inverse\">\n\t<a className=\"navbar-brand\" href=\"#\">${1:Title}</a>\n\t<ul className=\"nav navbar-nav\">\n\t\t<li className=\"active\">\n\t\t\t<a href=\"#\">${2:Home}</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a href=\"#\">${3:Link}</a>\n\t\t</li>\n\t</ul>\n</nav>\n",
+		"description": "Navbar Inverse",
+		"scope": ""
+	},
+	"bs3-navbar:link": {
+		"prefix": "bs3-navbar:link",
+		"body": "\n<p className=\"navbar-text pull-${1:right}\">\n\t<a href=\"${2:#}\" className=\"navbar-link\">${3:Links}</a>\n</p>\n",
+		"description": "Navbar Link",
+		"scope": ""
+	},
+	"bs3-navbar:links": {
+		"prefix": "bs3-navbar:links",
+		"body": "\n<ul className=\"nav navbar-nav\">\n\t<li className=\"active\">\n\t\t<a href=\"${1:#}\">${2:Home}</a>\n\t</li>\n\t<li>\n\t\t<a href=\"${3:#}\">${4:Link}</a>\n\t</li>\n</ul>\n",
+		"description": "Navbar Links",
+		"scope": ""
+	},
+	"bs3-navbar:responsive": {
+		"prefix": "bs3-navbar:responsive",
+		"body": "\n<nav className=\"navbar navbar-default\" role=\"navigation\">\n\t<!-- Brand and toggle get grouped for better mobile display -->\n\t<div className=\"navbar-header\">\n\t\t<button type=\"button\" className=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\n\t\t\t<span className=\"sr-only\">Toggle navigation</span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t</button>\n\t\t<a className=\"navbar-brand\" href=\"${1:#}\">${2:Title}</a>\n\t</div>\n\n\t<!-- Collect the nav links, forms, and other content for toggling -->\n\t<div className=\"collapse navbar-collapse navbar-ex1-collapse\">\n\t\t<ul className=\"nav navbar-nav\">\n\t\t\t<li className=\"active\"><a href=\"#\">Link</a></li>\n\t\t\t<li><a href=\"#\">Link</a></li>\n\t\t</ul>\n\t\t<form className=\"navbar-form navbar-left\" role=\"search\">\n\t\t\t<div className=\"form-group\">\n\t\t\t\t<input type=\"text\" className=\"form-control\" placeholder=\"Search\">\n\t\t\t</div>\n\t\t\t<button type=\"submit\" className=\"btn btn-default\">Submit</button>\n\t\t</form>\n\t\t<ul className=\"nav navbar-nav navbar-right\">\n\t\t\t<li><a href=\"#\">Link</a></li>\n\t\t\t<li className=\"dropdown\">\n\t\t\t\t<a href=\"#\" className=\"dropdown-toggle\" data-toggle=\"dropdown\">Dropdown <b className=\"caret\"></b></a>\n\t\t\t\t<ul className=\"dropdown-menu\">\n\t\t\t\t\t<li><a href=\"#\">Action</a></li>\n\t\t\t\t\t<li><a href=\"#\">Another action</a></li>\n\t\t\t\t\t<li><a href=\"#\">Something else here</a></li>\n\t\t\t\t\t<li><a href=\"#\">Separated link</a></li>\n\t\t\t\t</ul>\n\t\t\t</li>\n\t\t</ul>\n\t</div><!-- /.navbar-collapse -->\n</nav>\n",
+		"description": "Navbar Responsive",
+		"scope": ""
+	},
+	"bs3-navbar:static-top": {
+		"prefix": "bs3-navbar:static-top",
+		"body": "\n<nav className=\"navbar navbar-default navbar-static-top\" role=\"navigation\">\n\t<a className=\"navbar-brand\" href=\"${1:#}\">${2:Title}</a>\n\t<ul className=\"nav navbar-nav\">\n\t\t<li className=\"active\">\n\t\t\t<a href=\"#\">${3:Home}</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a href=\"#\">${4:Link}</a>\n\t\t</li>\n\t</ul>\n</nav>\n",
+		"description": "Navbar Static-Top",
+		"scope": ""
+	},
+	"bs3-navbar:text": {
+		"prefix": "bs3-navbar:text",
+		"body": "\n<p className=\"navbar-text\">${1:Navbar text}</p>\n",
+		"description": "Navbar Text",
+		"scope": ""
+	},
+	"bs3-navbar": {
+		"prefix": "bs3-navbar",
+		"body": "\n<nav className=\"navbar navbar-default\" role=\"navigation\">\n\t<!-- Brand and toggle get grouped for better mobile display -->\n\t<div className=\"navbar-header\">\n\t\t<button type=\"button\" className=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\n\t\t\t<span className=\"sr-only\">Toggle navigation</span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t\t<span className=\"icon-bar\"></span>\n\t\t</button>\n\t\t<a className=\"navbar-brand\" href=\"${1:#}\">${2:Title}</a>\n\t</div>\n\n\t<!-- Collect the nav links, forms, and other content for toggling -->\n\t<div className=\"collapse navbar-collapse navbar-ex1-collapse\">\n\t\t<ul className=\"nav navbar-nav\">\n\t\t\t<li className=\"active\"><a href=\"#\">Link</a></li>\n\t\t\t<li><a href=\"#\">Link</a></li>\n\t\t</ul>\n\t\t<form className=\"navbar-form navbar-left\" role=\"search\">\n\t\t\t<div className=\"form-group\">\n\t\t\t\t<input type=\"text\" className=\"form-control\" placeholder=\"Search\">\n\t\t\t</div>\n\t\t\t<button type=\"submit\" className=\"btn btn-default\">Submit</button>\n\t\t</form>\n\t\t<ul className=\"nav navbar-nav navbar-right\">\n\t\t\t<li><a href=\"#\">Link</a></li>\n\t\t\t<li className=\"dropdown\">\n\t\t\t\t<a href=\"#\" className=\"dropdown-toggle\" data-toggle=\"dropdown\">Dropdown <b className=\"caret\"></b></a>\n\t\t\t\t<ul className=\"dropdown-menu\">\n\t\t\t\t\t<li><a href=\"#\">Action</a></li>\n\t\t\t\t\t<li><a href=\"#\">Another action</a></li>\n\t\t\t\t\t<li><a href=\"#\">Something else here</a></li>\n\t\t\t\t\t<li><a href=\"#\">Separated link</a></li>\n\t\t\t\t</ul>\n\t\t\t</li>\n\t\t</ul>\n\t</div><!-- /.navbar-collapse -->\n</nav>\n",
+		"description": "Navbar",
+		"scope": ""
+	},
+	"bs3-page-header": {
+		"prefix": "bs3-page-header",
+		"body": "\n<div className=\"page-header\">\n  <h1>${1:title}<small>${2:subtext}</small></h1>\n</div>\n",
+		"description": "Page Header",
+		"scope": ""
+	},
+	"bs3-pager:aligned": {
+		"prefix": "bs3-pager:aligned",
+		"body": "\n<ul className=\"pager\">\n\t<li className=\"previous\"><a href=\"#\">&larr; Older</a></li>\n\t<li className=\"next\"><a href=\"#\">Newer &rarr;</a></li>\n</ul>\n",
+		"description": "Aligned Pager",
+		"scope": ""
+	},
+	"bs3-pager": {
+		"prefix": "bs3-pager",
+		"body": "\n<ul className=\"pager\">\n\t<li><a href=\"#\">Previous</a></li>\n\t<li><a href=\"#\">Next</a></li>\n</ul>\n",
+		"description": "Pager",
+		"scope": ""
+	},
+	"bs3-pagination:lg": {
+		"prefix": "bs3-pagination:lg",
+		"body": "\n<ul className=\"pagination pagination-lg\">\n\t<li><a href=\"#\">&laquo;</a></li>\n\t<li><a href=\"#\">1</a></li>\n\t<li><a href=\"#\">2</a></li>\n\t<li><a href=\"#\">3</a></li>\n\t<li><a href=\"#\">4</a></li>\n\t<li><a href=\"#\">5</a></li>\n\t<li><a href=\"#\">&raquo;</a></li>\n</ul>\n",
+		"description": "Pagination (Large)",
+		"scope": ""
+	},
+	"bs3-pagination:sm": {
+		"prefix": "bs3-pagination:sm",
+		"body": "\n<ul className=\"pagination pagination-sm\">\n\t<li><a href=\"#\">&laquo;</a></li>\n\t<li><a href=\"#\">1</a></li>\n\t<li><a href=\"#\">2</a></li>\n\t<li><a href=\"#\">3</a></li>\n\t<li><a href=\"#\">4</a></li>\n\t<li><a href=\"#\">5</a></li>\n\t<li><a href=\"#\">&raquo;</a></li>\n</ul>\n",
+		"description": "Pagination (Small)",
+		"scope": ""
+	},
+	"bs3-pagination": {
+		"prefix": "bs3-pagination",
+		"body": "\n<ul className=\"pagination\">\n\t<li><a href=\"#\">&laquo;</a></li>\n\t<li><a href=\"#\">1</a></li>\n\t<li><a href=\"#\">2</a></li>\n\t<li><a href=\"#\">3</a></li>\n\t<li><a href=\"#\">4</a></li>\n\t<li><a href=\"#\">5</a></li>\n\t<li><a href=\"#\">&raquo;</a></li>\n</ul>\n",
+		"description": "Pagination",
+		"scope": ""
+	},
+	"bs3-panel:danger": {
+		"prefix": "bs3-panel:danger",
+		"body": "\n<div className=\"panel panel-${1:danger}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (Danger)",
+		"scope": ""
+	},
+	"bs3-panel:footer": {
+		"prefix": "bs3-panel:footer",
+		"body": "\n<div className=\"panel panel-default\">\n\t  <div className=\"panel-body\">\n\t\t\t${1:Panel content}\n\t  </div>\n\t  <div className=\"panel-footer\">\n\t\t\t${2:Panel footer}\n\t\t</div>\n</div>\n",
+		"description": "Panel (with Footer)",
+		"scope": ""
+	},
+	"bs3-panel:heading": {
+		"prefix": "bs3-panel:heading",
+		"body": "\n<div className=\"panel panel-${1:default}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">${2:Panel title}</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${3:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (with Heading)",
+		"scope": ""
+	},
+	"bs3-panel:info": {
+		"prefix": "bs3-panel:info",
+		"body": "\n<div className=\"panel panel-${1:info}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (Info)",
+		"scope": ""
+	},
+	"bs3-panel:primary": {
+		"prefix": "bs3-panel:primary",
+		"body": "\n<div className=\"panel panel-${1:primary}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (Primary)",
+		"scope": ""
+	},
+	"bs3-panel:success": {
+		"prefix": "bs3-panel:success",
+		"body": "\n<div className=\"panel panel-${1:success}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (Success)",
+		"scope": ""
+	},
+	"bs3-panel:table": {
+		"prefix": "bs3-panel:table",
+		"body": "\n<div className=\"panel panel-${1:default}\">\n\t<!-- Default panel contents -->\n\t<div className=\"panel-heading\">Panel heading</div>\n\t\t<div className=\"panel-body\">\n\t\t\t<p>Text goes here...</p>\n\t\t</div>\n\n\t\t<!-- Table -->\n\t\t<table className=\"table\">\n\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th>${2:Heading 1}</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<th>${3:Heading 2}</th>\n\t\t\t\t</tr>\n\t\t\t</thead>\n\t\t\t<tbody>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>${4:Content 1}</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>${5:Content 2}</td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n</div>\n",
+		"description": "Panel (with Table)",
+		"scope": ""
+	},
+	"bs3-panel:warning": {
+		"prefix": "bs3-panel:warning",
+		"body": "\n<div className=\"panel panel-${1:warning}\">\n\t  <div className=\"panel-heading\">\n\t\t\t<h3 className=\"panel-title\">Panel title</h3>\n\t  </div>\n\t  <div className=\"panel-body\">\n\t\t\t${2:Panel content}\n\t  </div>\n</div>\n",
+		"description": "Panel (Warning)",
+		"scope": ""
+	},
+	"bs3-panel": {
+		"prefix": "bs3-panel",
+		"body": "\n<div className=\"panel panel-${1:default}\">\n\t<div className=\"panel-body\">\n\t   ${2:Basic panel example}\n\t</div>\n</div>\n",
+		"description": "Panel",
+		"scope": ""
+	},
+	"bs3-row-col": {
+		"prefix": "bs3-row-col",
+		"body": "\n<div className=\"row\">\n\t<div className=\"${2:col-xs-${1}} ${3:col-sm-${1}} ${4:col-md-${1}} ${5:col-lg-${1}}\">\n\t\t${0}\n\t</div>\n</div>\n",
+		"description": "Row & Column (no number specified)",
+		"scope": ""
+	},
+	"bs3-row": {
+		"prefix": "bs3-row",
+		"body": "\n<div className=\"row\">\n\t${0}\n</div>\n",
+		"description": "Row",
+		"scope": ""
+	},
+	"bs3-select:h": {
+		"prefix": "bs3-select:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"input${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${2:sm-10}\">\n\t\t<select name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${3:required=\"required\"}>\n\t\t\t<option value=\"\">${0}</option>\n\t\t</select>\n\t</div>\n</div>\n",
+		"description": "Select (Horizontal)",
+		"scope": ""
+	},
+	"bs3-select": {
+		"prefix": "bs3-select",
+		"body": "\n<select name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" ${2:required=\"required\"}>\n\t<option value=\"\">${0}</option>\n</select>\n",
+		"description": "Select",
+		"scope": ""
+	},
+	"bs3-sm-button:danger": {
+		"prefix": "bs3-sm-button:danger",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-danger\">${3:button}</${1:button}>\n",
+		"description": "Small Danger Button",
+		"scope": ""
+	},
+	"bs3-sm-button:default": {
+		"prefix": "bs3-sm-button:default",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-default\">${3:button}</${1:button}>\n",
+		"description": "Small Default Button",
+		"scope": ""
+	},
+	"bs3-sm-button:disabled": {
+		"prefix": "bs3-sm-button:disabled",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-${3:default} disabled\">${4:button}</${1:button}>\n",
+		"description": "Small Disabled Button",
+		"scope": ""
+	},
+	"bs3-sm-button:info": {
+		"prefix": "bs3-sm-button:info",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-info\">${3:button}</${1:button}>\n",
+		"description": "Small Info Button",
+		"scope": ""
+	},
+	"bs3-sm-button:primary": {
+		"prefix": "bs3-sm-button:primary",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-primary\">${3:button}</${1:button}>\n",
+		"description": "Small Primary Button",
+		"scope": ""
+	},
+	"bs3-sm-button:success": {
+		"prefix": "bs3-sm-button:success",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-success\">${3:button}</${1:button}>\n",
+		"description": "Small Success Button",
+		"scope": ""
+	},
+	"bs3-sm-button:warning": {
+		"prefix": "bs3-sm-button:warning",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-warning\">${3:button}</${1:button}>\n",
+		"description": "Small Warning Button",
+		"scope": ""
+	},
+	"bs3-sm-button": {
+		"prefix": "bs3-sm-button",
+		"body": "\n<${1:button} ${2:type=\"button\"} className=\"btn btn-sm btn-default\">${3:button}</${1:button}>\n",
+		"description": "Small Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:danger": {
+		"prefix": "bs3-sm-link-button:danger",
+		"body": "\n<a className=\"btn btn-sm btn-danger\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Danger Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:default": {
+		"prefix": "bs3-sm-link-button:default",
+		"body": "\n<a className=\"btn btn-sm btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Default Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:disabled": {
+		"prefix": "bs3-sm-link-button:disabled",
+		"body": "\n<a className=\"btn btn-sm btn-default disabled\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Disabled Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:info": {
+		"prefix": "bs3-sm-link-button:info",
+		"body": "\n<a className=\"btn btn-sm btn-info\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Info Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:primary": {
+		"prefix": "bs3-sm-link-button:primary",
+		"body": "\n<a className=\"btn btn-sm btn-primary\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Primary Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:success": {
+		"prefix": "bs3-sm-link-button:success",
+		"body": "\n<a className=\"btn btn-sm btn-success\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Success Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button:warning": {
+		"prefix": "bs3-sm-link-button:warning",
+		"body": "\n<a className=\"btn btn-sm btn-warning\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Warning Small Link Button",
+		"scope": ""
+	},
+	"bs3-sm-link-button": {
+		"prefix": "bs3-sm-link-button",
+		"body": "\n<a className=\"btn btn-sm btn-default\" href=\"#\" role=\"button\">button</a>\n",
+		"description": "Small Link Button",
+		"scope": ""
+	},
+	"bs3-table:bordered": {
+		"prefix": "bs3-table:bordered",
+		"body": "\n<table className=\"table table-bordered ${1:table-hover}\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+		"description": "Bordered Table",
+		"scope": ""
+	},
+	"bs3-table:condensed": {
+		"prefix": "bs3-table:condensed",
+		"body": "\n<table className=\"table table-condensed ${1:table-hover}\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+		"description": "Condensed Table",
+		"scope": ""
+	},
+	"bs3-table:hover": {
+		"prefix": "bs3-table:hover",
+		"body": "\n<table className=\"table table-hover\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+		"description": "Hover Table",
+		"scope": ""
+	},
+	"bs3-table:responsive": {
+		"prefix": "bs3-table:responsive",
+		"body": "\n<div className=\"table-responsive\">\n\t<table className=\"table${1: table-hover}\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th></th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td></td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div>\n",
+		"description": "Responsive Table",
+		"scope": ""
+	},
+	"bs3-table:striped": {
+		"prefix": "bs3-table:striped",
+		"body": "\n<table className=\"table table-striped ${1:table-hover}\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+		"description": "Striped Table",
+		"scope": ""
+	},
+	"bs3-table": {
+		"prefix": "bs3-table",
+		"body": "\n<table className=\"table${1: table-hover}\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+		"description": "Table",
+		"scope": ""
+	},
+	"bs3-tabs": {
+		"prefix": "bs3-tabs",
+		"body": "\n<div role=\"tabpanel\">\n    <!-- Nav tabs -->\n    <ul className=\"nav nav-tabs\" role=\"tablist\">\n        <li role=\"presentation\" className=\"active\">\n            <a href=\"#${1:home}\" aria-controls=\"${1:home}\" role=\"tab\" data-toggle=\"tab\">${1:home}</a>\n        </li>\n        <li role=\"presentation\">\n            <a href=\"#${2:tab}\" aria-controls=\"${2:tab}\" role=\"tab\" data-toggle=\"tab\">${2:tab}</a>\n        </li>\n    </ul>\n\n    <!-- Tab panes -->\n    <div className=\"tab-content\">\n        <div role=\"tabpanel\" className=\"tab-pane active\" id=\"${1:home}\">...</div>\n        <div role=\"tabpanel\" className=\"tab-pane\" id=\"${2:tab}\">...</div>\n    </div>\n</div>\n",
+		"description": "Tabs",
+		"scope": ""
+	},
+	"bs3-textarea:h": {
+		"prefix": "bs3-textarea:h",
+		"body": "\n<div className=\"form-group\">\n\t<label for=\"textarea${1/(\\w+)/\\u\\1/g}\" className=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div className=\"col-${3:sm-10}\">\n\t\t<textarea name=\"${1}\" id=\"textarea${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" rows=\"${4:3}\" ${5:required=\"required\"}>${6}</textarea>\n\t</div>\n</div>\n",
+		"description": "Textarea (Horizontal)",
+		"scope": ""
+	},
+	"bs3-textarea": {
+		"prefix": "bs3-textarea",
+		"body": "\n<textarea name=\"${1}\" id=\"input${1/(\\w+)/\\u\\1/g}\" className=\"form-control\" rows=\"${2:3}\" ${3:required=\"required\"}>${4}</textarea>\n",
+		"description": "Textarea",
+		"scope": ""
+	},
+	"bs3-thumbnail:content": {
+		"prefix": "bs3-thumbnail:content",
+		"body": "\n<div className=\"col-xs-${1:3} col-sm-${1:3} col-md-${1:3} col-lg-${1:3}\">\n\t<div className=\"thumbnail\">\n\t\t<img data-src=\"${2:#}\" alt=\"${3}\">\n\t\t<div className=\"caption\">\n\t\t\t<h3>${4:Title}</h3>\n\t\t\t<p>\n\t\t\t\t${5:...}\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<a href=\"${6:#}\" className=\"btn btn-primary\">${7:Action}</a>\n\t\t\t\t<a href=\"${8:#}\" className=\"btn btn-default\">${9:Action}</a>\n\t\t\t</p>\n\t\t</div>\n\t</div>\n</div>\n",
+		"description": "Thumbnail (with Content)",
+		"scope": ""
+	},
+	"bs3-thumbnail": {
+		"prefix": "bs3-thumbnail",
+		"body": "\n<div className=\"col-xs-${1:3} col-sm-${1:3} col-md-${1:3} col-lg-${1:3}\">\n\t<a href=\"${2:#}\" className=\"thumbnail\">\n\t\t<img data-src=\"${3:#}\" alt=\"${4}\">\n\t</a>\n</div>\n",
+		"description": "Thumbnail",
+		"scope": ""
+	},
+	"bs3-well:lg": {
+		"prefix": "bs3-well:lg",
+		"body": "\n<div className=\"well well-lg\">\n\t${0}\n</div>\n",
+		"description": "Large Well",
+		"scope": ""
+	},
+	"bs3-well:sm": {
+		"prefix": "bs3-well:sm",
+		"body": "\n<div className=\"well well-sm\">\n\t${0}\n</div>\n",
+		"description": "Small Well",
+		"scope": ""
+	},
+	"bs3-well": {
+		"prefix": "bs3-well",
+		"body": "\n<div className=\"well\">\n\t${0}\n</div>\n",
+		"description": "Well",
+		"scope": ""
+	},
+	"bs3-progress": {
+		"prefix": "bs3-progress",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped": {
+		"prefix": "bs3-progress-striped",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:label": {
+		"prefix": "bs3-progress:label",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"min-width: ${4}; width: ${5};\">\n\t\t ${6: % Complete}\n\t</div>\n</div>\n",
+		"description": "Progress Bar with Label",
+		"scope": ""
+	},
+    "bs3-progress-striped:label": {
+		"prefix": "bs3-progress-striped:label",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"min-width: ${4}; width: ${5};\">\n\t\t ${6: % Complete}\n\t</div>\n</div>\n",
+		"description": "Striped Progress Bar with Label",
+		"scope": ""
+	},
+    "bs3-progress:success": {
+		"prefix": "bs3-progress:success",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-success\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Success Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:info": {
+		"prefix": "bs3-progress:info",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-info\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Info Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:warning": {
+		"prefix": "bs3-progress:warning",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-warning\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Warning Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress:danger": {
+		"prefix": "bs3-progress:danger",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-danger\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Danger Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:success": {
+		"prefix": "bs3-progress-striped:success",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-success progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Success Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:info": {
+		"prefix": "bs3-progress-striped:info",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-info progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Info Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:warning": {
+		"prefix": "bs3-progress-striped:warning",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-warning progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Warning Progress Bar",
+		"scope": ""
+	},
+    "bs3-progress-striped:danger": {
+		"prefix": "bs3-progress-striped:danger",
+		"body": "\n<div className=\"progress\">\n\t<div className=\"progress-bar progress-bar-danger progress-bar-striped\" role=\"progressbar\" aria-valuenow=\"${1}\" aria-valuemin=\"${2}\" aria-valuemax=\"${3}\" style=\"width: ${4};\">\n\t\t<span className=\"sr-only\"> ${5: % Complete}</span>\n\t</div>\n</div>\n",
+		"description": "Striped Danger Progress Bar",
+		"scope": ""
+	}
+}
