@@ -229,7 +229,7 @@
 	},
 	"bs3-cdn": {
 		"prefix": "bs3-cdn",
-		"body": "\n<!-- Latest compiled and minified CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n${2:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
+		"body": "\n<!-- Latest compiled and minified CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"https://netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n${2:<script src=\"https://code.jquery.com/jquery.js\"></script>}\n<script src=\"https://netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
 		"description": "CDN Hosted Bootstrap Links: CSS & JS",
 		"scope": ""
 	},
