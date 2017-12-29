@@ -58,7 +58,15 @@
 			{
  				"language": "typescriptreact",
  				"path": "./snippets/snippets.json"
- 			} 
+ 			},
+			{
+				"language": "lang-cfml",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "cfml",
+				"path": "./snippets/snippets.json"
+			} 
 		]
 	}
 }
