@@ -28,6 +28,10 @@
 				"path": "./snippets/snippets.json"
 			},
 			{
+				"language": "twig",
+				"path": "./snippets/snippets.json"
+			},
+			{
 				"language": "handlebars",
 				"path": "./snippets/snippets.json"
 			},
