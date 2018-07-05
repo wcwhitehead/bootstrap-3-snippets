@@ -1278,13 +1278,13 @@
 		"scope": ""
 	},
 	"bs3-collapse:link-href": {
-		"prefix": "bs3-collapse-link-href",
+		"prefix": "bs3-collapse:link-href",
 		"body": "<a class=\"btn btn-primary\" role=\"button\" data-toggle=\"collapse\" href=\"#${1:collapseExample}\" aria-expanded=\"false\" aria-controls=\"${1:collapseExample}\">\n  Link with href\n</a>\n<div class=\"collapse\" id=\"${1:collapseExample}\">\n  <div class=\"well\">\n    ...\n  </div>\n</div>",
 		"description": "Collapse with link href",
 		"scope": ""
 	},
 	"bs3-collapse:data-target": {
-		"prefix": "bs3-collapse-data-target",
+		"prefix": "bs3-collapse:data-target",
 		"body": "<button class=\"btn btn-primary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#${1:collapseExample}\" aria-expanded=\"false\" aria-controls=\"${1:collapseExample}\">\n  Button with data-target\n</button>\n<div class=\"collapse\" id=\"${1:collapseExample}\">\n  <div class=\"well\">\n    ...\n  </div>\n</div>",
 		"description": "Collapse with data target",
 		"scope": ""
