@@ -1277,6 +1277,24 @@
 		"description": "Tabs",
 		"scope": ""
 	},
+	"bs3-collapse:link-href": {
+		"prefix": "bs3-collapse:link-href",
+		"body": "<a class=\"btn btn-primary\" role=\"button\" data-toggle=\"collapse\" href=\"#${1:collapseExample}\" aria-expanded=\"false\" aria-controls=\"${1:collapseExample}\">\n  Link with href\n</a>\n<div class=\"collapse\" id=\"${1:collapseExample}\">\n  <div class=\"well\">\n    ...\n  </div>\n</div>",
+		"description": "Collapse with link href",
+		"scope": ""
+	},
+	"bs3-collapse:data-target": {
+		"prefix": "bs3-collapse:data-target",
+		"body": "<button class=\"btn btn-primary\" type=\"button\" data-toggle=\"collapse\" data-target=\"#${1:collapseExample}\" aria-expanded=\"false\" aria-controls=\"${1:collapseExample}\">\n  Button with data-target\n</button>\n<div class=\"collapse\" id=\"${1:collapseExample}\">\n  <div class=\"well\">\n    ...\n  </div>\n</div>",
+		"description": "Collapse with data target",
+		"scope": ""
+	},
+	"bs3-accordion": {
+		"prefix": "bs3-accordion",
+		"body": "<div class=\"panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n  <div class=\"panel panel-default\">\n    <div class=\"panel-heading\" role=\"tab\" id=\"heading${1:One}\">\n      <h4 class=\"panel-title\">\n        <a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse${1:One}\" aria-expanded=\"true\" aria-controls=\"collapse${1:One}\">\n          ${1:One} title\n        </a>\n      </h4>\n    </div>\n    <div id=\"collapse${1:One}\" class=\"panel-collapse collapse in\" role=\"tabpanel\" aria-labelledby=\"heading${1:One}\">\n      <div class=\"panel-body\">\n        ${1:One} content.\n      </div>\n    </div>\n  </div>\n  <div class=\"panel panel-default\">\n    <div class=\"panel-heading\" role=\"tab\" id=\"heading${2:Two}\">\n      <h4 class=\"panel-title\">\n        <a class=\"collapsed\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse${2:Two}\" aria-expanded=\"false\" aria-controls=\"collapse${2:Two}\">\n          ${2:Two} title\n        </a>\n      </h4>\n    </div>\n    <div id=\"collapse${2:Two}\" class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"heading${2:Two}\">\n      <div class=\"panel-body\">\n        ${2:Two} content.\n      </div>\n    </div>\n  </div>\n  <div class=\"panel panel-default\">\n    <div class=\"panel-heading\" role=\"tab\" id=\"heading${3:Three}\">\n      <h4 class=\"panel-title\">\n        <a class=\"collapsed\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse${3:Three}\" aria-expanded=\"false\" aria-controls=\"collapse${3:Three}\">\n          ${3:Three} title\n        </a>\n      </h4>\n    </div>\n    <div id=\"collapse${3:Three}\" class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"heading${3:Three}\">\n      <div class=\"panel-body\">\n        ${3:Three} content.\n      </div>\n    </div>\n  </div>\n</div>",
+		"description": "Accordion",
+		"scope": ""
+	},
 	"bs3-textarea:h": {
 		"prefix": "bs3-textarea:h",
 		"body": "\n<div class=\"form-group\">\n\t<label for=\"textarea${1/(\\w+)/\\u\\1/g}\" class=\"col-${2:sm-2} control-label\">${1/(\\w+)/\\u\\1/g}:</label>\n\t<div class=\"col-${3:sm-10}\">\n\t\t<textarea name=\"${1}\" id=\"textarea${1/(\\w+)/\\u\\1/g}\" class=\"form-control\" rows=\"${4:3}\" ${5:required=\"required\"}>${6}</textarea>\n\t</div>\n</div>\n",
