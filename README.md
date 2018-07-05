@@ -413,7 +413,15 @@ bs3-table:striped | Striped Table
 Trigger | Description
 --- | ---
 bs3-tabs | Tabs
-	
+
+### Collapse
+
+Trigger | Description
+--- | ---
+bs3-collapse:link-href | Collapse with link href
+bs3-collapse:data-target | Collapse with data target
+bs3-accordion | Accordion
+
 ### Templates
 
 Trigger | Description
