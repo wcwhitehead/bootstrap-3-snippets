@@ -948,10 +948,10 @@
 		"scope": ""
 	},
 	"bs3-modal": {
-		"prefix": "bs3-modal",
-		"body": "\n${1:<a class=\"btn btn-primary\" data-toggle=\"modal\" href='#${2:modal-id}'>Trigger modal</a>}\n<div class=\"modal fade\" id=\"${2:modal-id}\">\n\t<div class=\"modal-dialog\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n\t\t\t\t<h4 class=\"modal-title\">${3:Modal title}</h4>\n\t\t\t</div>\n\t\t\t<div class=\"modal-body\">\n\t\t\t\t${0}\n\t\t\t</div>\n\t\t\t<div class=\"modal-footer\">\n\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">${4:Close}</button>\n\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">${5:Save changes}</button>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n",
-		"description": "Modal",
-		"scope": ""
+		  "prefix": "bs3-modal",
+		  "body": "\n${1:<a class=\"btn btn-primary\" data-toggle=\"modal\" href='#${2:modal-id}'>Trigger modal</a>}\n<div class=\"modal fade\" id=\"${2:modal-id}\">\n\t<div class=\"modal-dialog\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<h4 class=\"modal-title\">${3:Modal title}</h4>\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n\t\t\t</div>\n\t\t\t<div class=\"modal-body\">\n\t\t\t\t${0}\n\t\t\t</div>\n\t\t\t<div class=\"modal-footer\">\n\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">${4:Close}</button>\n\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">${5:Save changes}</button>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n",
+		  "description": "Modal",
+		  "scope": ""
 	},
 	"bs3-navbar:basic": {
 		"prefix": "bs3-navbar:basic",
